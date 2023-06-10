@@ -5,6 +5,8 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 from django.contrib.auth.models import User
 from .serializers import UserSerializer
+from rest_framework_simplejwt.views import TokenObtainPairView
+from .serializers import MyTokenObtainPairSerializer
 
 
 class UsersAPIView(APIView):
@@ -19,3 +21,6 @@ class UsersAPIView(APIView):
             serializer.save()
             return Response(serializer.data, status=201)
         return Response(serializer.errors, status=400)
+
+class MyTokenObtainPairView(TokenObtainPairView):
+    serializer_class = MyTokenObtainPairSerializer
