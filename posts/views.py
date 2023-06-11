@@ -6,6 +6,7 @@ from rest_framework import permissions
 from .models import Post, Upvote, Comment
 from .serializers import PostSerializer, UpvoteSerializer, CommentSerializer
 from django.contrib.auth.models import User
+
 # Create your views here.
 class PostListAPIView(APIView):
     permission_classes = [permissions.IsAuthenticated]
