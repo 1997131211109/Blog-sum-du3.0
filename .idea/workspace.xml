@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bf1ce66-5e4f-44bb-bf1f-ac81daeb2254" name="Changes" comment="Add a color 2">
-      <change beforePath="$PROJECT_DIR$/.idea/Blog-sum-du3.0.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Blog-sum-du3.0.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/members/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/members/templete/hello.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/members/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/posts/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/your_database_name" beforeDir="false" afterPath="$PROJECT_DIR$/your_database_name" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
